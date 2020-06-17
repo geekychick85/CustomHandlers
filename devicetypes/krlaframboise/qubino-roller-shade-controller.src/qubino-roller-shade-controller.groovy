@@ -26,8 +26,8 @@
  */
 metadata {
 	definition (
-		name: "Qubino Roller Shade Controller", 
-		namespace: "krlaframboise", 
+		name: "Qubino Controller", 
+		namespace: "geekychick", 
 		author: "Kevin LaFramboise",
 		vid:"generic-switch-power-energy"
 	) {
@@ -106,8 +106,8 @@ metadata {
 	preferences {			
 		getOptionsInput(powerReportingThresholdParam)
 		getOptionsInput(powerReportingIntervalParam)
-		// getOptionsInput(motorMovingTimeParam)
-		// getOptionsInput(motorOperationDetectionParam)
+		getOptionsInput(motorMovingTimeParam)
+		getOptionsInput(motorOperationDetectionParam)
 		// getOptionsInput(powerConsumptionMaxDelayTimeParam)
 		// getOptionsInput(powerConsumptionLimitSwitchDelayTimeParam)
 		// getOptionsInput(nextMotorMovementTimeDelayParam)
